@@ -1,32 +1,56 @@
-## An updated guide for the perplexed: cytometry in the high-dimensional era 
+# An updated guide for the perplexed: cytometry in the high-dimensional era 
 
 Thomas Liechti, Lukas M. Weber, Thomas Myles Ashhurst, Natalie Stanley, Martin Prlic, Sofie Van Gassen, and Florian Mair
 
 **Nature Immunology**
 
-During the past decade, both fluorescent- and mass-based cytometry has increased in complexity, enabling the simultaneous measurement of up to 50 markers per cell. To tackle the resulting complexity of multi-parametric single-cell data, advanced analysis approaches such as non-linear dimensionality reduction (e.g. via uniform manifold approximation projection, UMAP, or t-stochastic neighbor embedding, t-SNE) as well as different clustering methods (e.g. FlowSOM, PhenoGraph) have been widely adopted for visualizing, reporting and interpreting complex cytometry data (REF Saeys Nat Rev Imm 2016, PMID 27320317). In general, computational analysis ensures a more exhaustive and unsupervised assessment of data compared to traditional two-dimensional gating. However, to generate robust results from this type of analysis, thoughtful steps are required that start with systematic experiment design, followed by choosing appropriate parameters for data pre-processing and subsequent computational pipelines. All of these steps should be reported in a transparent manner to ensure reproducibility and to avoid visual misinterpretation. Within this commentary we aim to provide an overview of key issues that can occur due to inappropriate data pre-processing or suboptimal use of computational analysis approaches (summarized in Figure 1). 
+<br/>
+
+---
+
+## Overview
+
+This repository provides code used to perform analyses presented in Comprehensive integration of single-cell data.
 
 <br/>
 
 ---
 
-## Installation and setup
+## How to generate the plots
 
 Data in Figures 2D-F were generated using [Spectre v0.5.3](). 
 
-...
-...
+All major components of the analysis can be reproduced using the Snakemake workfow provided in this repository. Please note that there is a substantial amount of data required to reproduce the entire analysis (over 100 Gb).
+
 ...
 
 <br/>
 
-## Figure 2D
+### Figure 2D
 
 Data used in Figure 2D can be downloaded from [here]().
 
 <br/>
 
-## Figure 2E-F
+### Figure 2E-F
 
 Data used in Figure 2E-F can be downloaded from [here]().
+
+
+
+
+
+
+Comprehensive integration of single-cell data
+
+
+An open-access bioRxiv version of the manuscript can be found here.
+
+How to run the analysis
+All major components of the analysis can be reproduced using the Snakemake workfow provided in this repository. Please note that there is a substantial amount of data required to reproduce the entire analysis (over 100 Gb).
+
+Individual plots can be reproduced by setting the snakemake target. For example, figure 2 of the paper can be reproduced by running:
+
+
+
 
