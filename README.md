@@ -1,4 +1,4 @@
-# An updated guide for the perplexed: cytometry in the high-dimensional era 
+## An updated guide for the perplexed: cytometry in the high-dimensional era 
 
 Thomas Liechti, Lukas M. Weber, Thomas Myles Ashhurst, Natalie Stanley, Martin Prlic, Sofie Van Gassen, and Florian Mair
 
