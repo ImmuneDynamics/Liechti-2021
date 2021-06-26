@@ -6,7 +6,6 @@ Thomas Liechti, Lukas M. Weber, Thomas Myles Ashhurst, Natalie Stanley, Martin P
 
 <br/>
 
----
 
 ## Overview
 
@@ -14,7 +13,6 @@ This repository provides code used to perform analyses presented in Comprehensiv
 
 <br/>
 
----
 
 ## How to generate the plots
 
