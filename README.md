@@ -1,6 +1,6 @@
 # An updated guide for the perplexed: cytometry in the high-dimensional era 
 
-Scripts and data to generate Figures 2D-F. The scripts here utilise the [Spectre](https://immunedynamics.io/spectre) toolkit in R. See [this page](https://immunedynamics.io/spectre/getting-started/) for installation instructions. 
+This repository contains scripts and data to generate Figures 2D-F. The scripts here utilise the [Spectre](https://immunedynamics.io/spectre) toolkit in R. See [this page](https://immunedynamics.io/spectre/getting-started/) for installation instructions. 
 
 Briefly, Spectre can be installed via `devtools`.
 
